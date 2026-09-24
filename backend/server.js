@@ -1,5 +1,5 @@
 /**
- * UrbanPulse AI - Standalone Backend Server (Node.js/Express)
+ * CityNexus AI - Standalone Backend Server (Node.js/Express)
  * Can be run independently with: node backend/server.js
  */
 
@@ -22,14 +22,14 @@ app.use('/api', issuesRouter);
 app.get('/api/health', (_req, res) => {
   res.json({
     status: 'healthy',
-    backend: 'UrbanPulse AI Backend Service',
+    backend: 'CityNexus AI Backend Service',
     timestamp: new Date().toISOString(),
   });
 });
 
 if (process.env.NODE_ENV !== 'test' && !process.env.VITE_EMBEDDED) {
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`UrbanPulse AI Backend running on port ${PORT}`);
+    console.log(`CityNexus AI Backend running on port ${PORT}`);
   });
 }
 

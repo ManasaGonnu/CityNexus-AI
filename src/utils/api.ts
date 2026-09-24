@@ -1,5 +1,5 @@
 /**
- * UrbanPulse AI - Frontend API Client
+ * CityNexus AI - Frontend API Client
  */
 
 export interface CivicIncident {

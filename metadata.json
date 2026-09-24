@@ -1,5 +1,5 @@
 {
-  "name": "UrbanPulse AI",
+  "name": "CityNexus AI",
   "description": "AI-powered citizen-to-municipality civic decision support platform aligned with UN SDG 11.",
   "requestFramePermissions": [
     "microphone"

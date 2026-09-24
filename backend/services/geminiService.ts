@@ -1,5 +1,5 @@
 /**
- * Gemini AI Analysis Service for UrbanPulse AI
+ * Gemini AI Analysis Service for CityNexus AI
  * Uses @google/genai TypeScript SDK with gemini-2.5-flash
  * Includes robust heuristic fallback to guarantee zero broken flows
  */
@@ -176,7 +176,7 @@ export function heuristicFallbackAnalysis(
     safetyFactorScore,
     environmentalFactorScore,
     isAiGenerated: false,
-    engineUsed: 'UrbanPulse Deterministic Heuristic Engine v2.5',
+    engineUsed: 'CityNexus Deterministic Heuristic Engine v2.5',
   };
 }
 
@@ -309,7 +309,7 @@ export async function processVoiceInput(spokenText: string): Promise<VoiceAssist
   }
 
   try {
-    const prompt = `You are UrbanPulse Voice Assistant for municipal dispatch.
+    const prompt = `You are CityNexus Voice Assistant for municipal dispatch.
 The citizen said: "${text}"
 
 Parse this speech into a JSON object:

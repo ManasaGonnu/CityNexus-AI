@@ -1,5 +1,5 @@
 /**
- * Express router for UrbanPulse AI civic issue management
+ * Express router for CityNexus AI civic issue management
  */
 
 import express, { Request, Response } from 'express';

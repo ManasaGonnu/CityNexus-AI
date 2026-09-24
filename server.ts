@@ -1,5 +1,5 @@
 /**
- * UrbanPulse AI - Unified Server Entry Point
+ * CityNexus AI - Unified Server Entry Point
  * Express API backend + Vite middleware in dev / static in production
  */
 
@@ -32,7 +32,7 @@ async function startServer() {
   app.get('/api/health', (_req, res) => {
     res.json({
       status: 'healthy',
-      app: 'UrbanPulse AI',
+      app: 'CityNexus AI',
       timestamp: new Date().toISOString(),
       geminiConfigured: Boolean(process.env.GEMINI_API_KEY && process.env.GEMINI_API_KEY !== 'MY_GEMINI_API_KEY'),
     });
@@ -56,7 +56,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`🚀 UrbanPulse AI server running on http://0.0.0.0:${PORT}`);
+    console.log(`🚀 CityNexus AI server running on http://0.0.0.0:${PORT}`);
     console.log(`📡 Gemini API Status: ${process.env.GEMINI_API_KEY ? 'Active' : 'Using Heuristic Fallback'}`);
   });
 }
