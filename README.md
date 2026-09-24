@@ -1,4 +1,4 @@
-# 🌆 UrbanPulse AI - Citizen-to-Municipality Decision Support Platform
+# 🌆 CityNexus AI - Citizen-to-Municipality Decision Support Platform
 ### *AI-Powered Civic Incident Triage Aligned with UN SDG 11: Sustainable Cities & Communities*
 
 ---
@@ -7,7 +7,7 @@
 
 Municipalities worldwide struggle with overwhelming citizen service backlogs, redundant reports for visible public failures, and subjective urgency triage. Minor issues often get addressed before life-threatening hazards, while critical infrastructure degradation goes unnoticed until catastrophic failure occurs.
 
-**UrbanPulse AI** bridges the citizen-to-government divide by uniting:
+**CityNexus AI** bridges the citizen-to-government divide by uniting:
 1. **Multimodal Citizen Reporting**: Photos, GPS coordinate pinning, and natural Web Speech Voice AI.
 2. **Gemini 2.5 Flash Visual Triage**: Automated structural threat evaluation, safety factor scoring ($1-15$), environmental hazard scoring ($1-10$), and cascading urban risk diagnosis.
 3. **Deterministic Municipal Priority GIS Engine**: Algorithmic scoring on a $0 - 100$ scale combining AI hazard scores, Haversine geospatial duplicate clustering ($<150\text{m}$), and public transit corridor proximity bonuses ($<85\text{m}$).
@@ -72,7 +72,7 @@ When multiple citizens flag the same issue, the parent ticket priority automatic
 ## 🗂️ Project Directory Structure
 
 ```
-urbanpulse-ai/
+citynexus-ai/
 ├── backend/
 │   ├── .env.example              # Server environment variable template
 │   ├── server.js                 # Standalone Express backend entry
